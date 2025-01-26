@@ -27,7 +27,7 @@ To compile the shell, run:
 
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-
+```
 ## Usage
 
 After compilation, start the shell with:
@@ -63,15 +63,15 @@ exit: Exits the shell.
 env: Prints the current environment variables.
 
 ## Files
-README.md: Project description and usage.
-man_1_simple_shell: Manual page for the shell.
-AUTHORS: List of contributors.
-main.h: Header file with function prototypes and includes.
-main.c: Entry point of the program.
-prompt.c: Handles the prompt display and user input.
-execute.c: Executes commands.
-builtins.c: Implements built-in commands.
-helpers.c: Helper functions for string manipulation and other utilities.
++ README.md: Project description and usage.
++ man_1_simple_shell: Manual page for the shell.
++ AUTHORS: List of contributors.
++ main.h: Header file with function prototypes and includes.
++ main.c: Entry point of the program.
++ prompt.c: Handles the prompt display and user input.
++ execute.c: Executes commands.
++ builtins.c: Implements built-in commands.
++ helpers.c: Helper functions for string manipulation and other utilities.
 
 ## Authors
 Emmanuel Anyira
