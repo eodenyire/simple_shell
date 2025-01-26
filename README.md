@@ -81,5 +81,4 @@ Emmanuel Anyira
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Feel free to customize this template to align with your project's specifics and to provide clear, concise information to users and collaborators.
-::contentReference[oaicite:0]{index=0}
 
