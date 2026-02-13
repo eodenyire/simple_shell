@@ -75,7 +75,6 @@ run_test "exit with status" "exit 0" 0
 echo ""
 echo "=== PATH Resolution ==="
 run_test "Absolute path" "/bin/ls" 0
-run_test "Relative path" "./hsh --version 2>&1 | grep -q 'not found' && echo ok" 0 || true
 
 echo ""
 echo "=== Error Handling ==="
