@@ -16,11 +16,10 @@ char *copy_info(char *name, char *value)
 	len_name = _strlen(name);
 	len_value = _strlen(value);
 	len = len_name + len_value + 2;
-	new = malloc(sizeof(char) * (len));
+	new = malloc(sizeof(char) * (len + 1));
 	_strcpy(new, name);
 	_strcat(new, "=");
 	_strcat(new, value);
-	_strcat(new, "\0");
 
 	return (new);
 }

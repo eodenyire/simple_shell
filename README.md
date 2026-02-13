@@ -67,11 +67,28 @@ env: Prints the current environment variables.
 + man_1_simple_shell: Manual page for the shell.
 + AUTHORS: List of contributors.
 + main.h: Header file with function prototypes and includes.
-+ main.c: Entry point of the program.
-+ prompt.c: Handles the prompt display and user input.
-+ execute.c: Executes commands.
-+ builtins.c: Implements built-in commands.
-+ helpers.c: Helper functions for string manipulation and other utilities.
++ main.c: Entry point of the program, initialization and cleanup.
++ shell_loop.c: Main shell loop, prompt display and input handling.
++ read_line.c: Reads user input.
++ get_line.c: Custom getline implementation.
++ split.c: Command tokenization and separator handling.
++ exec_line.c: Command line execution coordinator.
++ cmd_exec.c: Command execution with fork/exec.
++ get_builtin.c: Built-in command dispatcher.
++ exit_shell.c: Exit built-in implementation.
++ env1.c, env2.c: Environment variable handling.
++ cd.c, cd_shell.c: Change directory built-in.
++ get_help.c: Help built-in command.
++ aux_help.c, aux_help2.c: Help text for various commands.
++ aux_str.c, aux_str2.c, aux_str3.c: String utility functions.
++ aux_mem.c: Memory management utilities.
++ aux_stdlib.c: Standard library utilities (atoi, itoa).
++ aux_lists.c, aux_lists2.c: Linked list management.
++ aux_error1.c, aux_error2.c: Error message generation.
++ get_error.c: Error handling.
++ get_sigint.c: Signal handling.
++ check_syntax_error.c: Input syntax validation.
++ rep_var.c: Variable replacement and expansion.
 
 ## Authors
 Emmanuel Anyira
